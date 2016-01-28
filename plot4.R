@@ -31,6 +31,6 @@ lines(date, subMetering2, type="l", col="red")
 lines(date, subMetering3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
-plot(time, globalReactivePower, type="l", xlab="datetime", ylab="Global_reactive_power")
+plot(date, globalReactivePower, type="l", xlab="datetime", ylab="Global_reactive_power")
 
 dev.off()
